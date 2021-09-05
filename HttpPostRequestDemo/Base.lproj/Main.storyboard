@@ -22,6 +22,7 @@
                                 <color key="backgroundColor" red="0.9830619693" green="0.56104618309999998" blue="0.071533180769999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Button"/>
                                 <connections>
+                                    <action selector="bgColor:" destination="BYZ-38-t0r" eventType="touchUpInside" id="flP-Xc-oQB"/>
                                     <action selector="btnAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="OG5-2d-Zft"/>
                                 </connections>
                             </button>
@@ -29,6 +30,9 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <connections>
+                        <outlet property="bgColor" destination="8bC-Xf-vdC" id="NNA-uS-JAr"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
