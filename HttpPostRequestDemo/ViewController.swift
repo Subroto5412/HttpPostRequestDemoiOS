@@ -9,7 +9,8 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    @IBOutlet var bgColor: UIView!
+    @IBOutlet var viewColor: UIView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
@@ -21,7 +22,7 @@ class ViewController: UIViewController {
         alert.addAction(UIAlertAction(title: "Click", style: UIAlertAction.Style.default, handler: nil))
         self.present(alert, animated: true, completion: nil)
         
-        self.bgColor.backgroundColor = UIColor.red
+        self.viewColor.backgroundColor = UIColor.red
     }
     
 
